@@ -11,7 +11,7 @@ class MenuState:
             self.game.change_state(GameState.PLAYING)
 
     def update(self, dt):
-        pass  # Nothing to update in menu for now
+        pass  
 
     def draw(self, screen):
         screen.fill("black")

@@ -10,7 +10,7 @@ class PlayingState:
     def __init__(self, game):
         self.game = game
 
-        self.tilemap = TileMap(r"assets/map/amogus.csv")  # Use raw string or forward slashes
+        self.tilemap = TileMap(r"assets/map/amogus.csv")  
         self.tilemap_view = TileMapView(self.tilemap)
         self.tilemap_controller = TileController(self.tilemap)
 
